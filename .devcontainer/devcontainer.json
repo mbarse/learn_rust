@@ -1,0 +1,12 @@
+{
+  "name": "Rust Development",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "forwardPorts": [],
+  "postCreateCommand": "cargo check",
+  "remoteUser": "root"
+}
